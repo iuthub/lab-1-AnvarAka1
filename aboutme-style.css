@@ -9,16 +9,16 @@ body{
 }
 h1{
 	padding: 20px 0;
+	font-weight: bold;
 	font-family: "Times New Roman", Times, Sans-Serif;
+	font-size: 30px;
+	color: #fff;
 }
 ul{
 	padding-left: 30px;
 }
 li{
 	line-height: 25px;
-}
-h1{
-	color: #fff;
 }
 .main-page{
 	background-color: #333;
@@ -48,6 +48,16 @@ p, li{
 }
 .box p{
 	font-size: 20px;
-
+	font-weight: bold;
 	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+p::first-letter{
+	font-size: 1.5em;
 }
